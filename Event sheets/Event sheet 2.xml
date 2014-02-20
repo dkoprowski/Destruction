@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <event-block sid="3744904768091583">
+            <conditions>
+                <condition id="3" name="On touched object" sid="7216488518997581" type="Touch">
+                    <param id="0" name="Object">start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3920341249799381" type="System">
+                    <param id="0" name="Layout">gra</param>
+                </action>
+                <action id="0" name="Play" sid="211586451990587" type="Audio">
+                    <param id="0" name="Audio file">n4a</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;n4a&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4627720709477653">
+            <conditions>
+                <condition id="3" name="On touched object" sid="44084715389439" type="Touch">
+                    <param id="0" name="Object">mute_start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="767975498221961" type="System">
+                    <param id="0" name="Layout">gra</param>
+                </action>
+                <action id="8" name="Set silent" sid="2279428202788581" type="Audio">
+                    <param id="0" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
